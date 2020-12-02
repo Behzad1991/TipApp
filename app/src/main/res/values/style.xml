@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    /**This style will affect on TEXT VIEW, such as min text size, gravity and appearance*/
+    <style name="Widget.MyKotlin.TextView" 
+        parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">@dimen/min_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    /**This style will affect on text views, such as min text size, gravity and appearance*/
+
+
+    
+    /**This style will affect on SWITCHES, such as min text size, gravity and appearance*/
+    <style name="Widget.MyKotlin.CompoundButton.Switch" 
+        parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">@dimen/min_text_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    /**This style will affect on SWITCHES, such as min text size, gravity and appearance*/
+
+
+
+    /**This style will affect on RADIO BUTTON, such as min text size, gravity and appearance*/
+    <style name="Widget.MyKotlin.CompoundButton.RadioButton"
+        parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:paddingStart">@dimen/min_padding</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+</resources>
